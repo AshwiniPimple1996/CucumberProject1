@@ -1,0 +1,353 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5918722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.webdriverInitialization()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Launch E-Learning website and sign up",
+        "description": "",
+        "id": "sign-up-functionality;launch-e-learning-website-and-sign-up;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 259140000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4424757500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the signup page of E-learning site",
+            "match": {
+              "location": "SignupExample.user_is_on_the_signup_page_of_E_learning_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the elearning site",
+            "match": {
+              "location": "SignupExample.user_is_on_the_elearning_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5084651700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the sign up button",
+            "match": {
+              "location": "SignupExample.click_on_the_sign_up_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sign up page launched successfully",
+            "match": {
+              "location": "SignupExample.sign_up_page_launched_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3186526900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the \"Dev146\" in firstname textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dev146",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the_in_firstname_textbox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3161537400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the \"mathur\" in lastname textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mathur",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the_in_lastname_textbox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3191688500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the \"a@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3166784400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the \"dev146\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dev146",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the_in_username_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3193594000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user set the \"mathur4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mathur4321",
+                  "offset": 14
+                }
+              ],
+              "location": "SignupExample.user_set_the(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3230228400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the \"mathur4321\" as confirmpwd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mathur4321",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the_as_confirmpwd(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6143693300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on register button",
+            "match": {
+              "location": "SignupExample.click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3149406800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on profile button",
+            "match": {
+              "location": "SignupExample.user_click_on_profile_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6766951200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on inbox link",
+            "match": {
+              "location": "SignupExample.user_click_on_inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5574304700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on composebox link",
+            "match": {
+              "location": "SignupExample.user_click_on_composebox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3541074000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the \"dev\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dev",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the_details(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001532500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select the first item",
+            "match": {
+              "location": "SignupExample.user_select_the_first_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3180190000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the \"Welcome\" in subject textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_enters_the_in_subject_textbox(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7274500400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user writes the \"Welcome to the testing class\" in the messagebody",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to the testing class",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupExample.user_writes_the_in_the_messagebody(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5036359000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click on sendmessage button",
+            "match": {
+              "location": "SignupExample.user_click_on_sendmessage_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up functionality",
+    "description": "",
+    "id": "sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "signup.feature"
+  }
+]
